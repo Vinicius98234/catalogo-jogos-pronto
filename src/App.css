@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+.App {
+    text-align: center;
+    padding: 20px;
+    background: -webkit-linear-gradient(90deg, #3c4973,#282c40,#3c4973); 
+}
+  
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #1E1E1E;
+}
+.Link , a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: none;
+    font-family: "Orbitron", sans-serif;
+    gap: 50px;
+    color: #1E1E1E;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+}

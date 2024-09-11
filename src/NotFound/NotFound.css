@@ -1,0 +1,17 @@
+.Error{
+    width: 100%;
+    height: 900px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.BotaoVoltar{
+    font-size: 20px;
+    text-align: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    
+}
